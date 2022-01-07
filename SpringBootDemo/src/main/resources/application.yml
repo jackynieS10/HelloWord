@@ -1,0 +1,16 @@
+
+server:
+  port: 8888
+
+spring:
+  application:
+    name: jackynie-web
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/phone_call?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

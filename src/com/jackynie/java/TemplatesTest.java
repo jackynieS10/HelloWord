@@ -4,7 +4,6 @@ import com.jackynie.bean.jackynieClass;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 /**
  * @author jackynie
@@ -36,8 +35,6 @@ public class TemplatesTest {
         for (int i = 0; i < resultList.size(); i++) {
             System.out.println("TemplatesTest.main " + resultList.get(i));
         }
-
-        Map
 
         // iter 增强for循环
         for (String result : resultList) {

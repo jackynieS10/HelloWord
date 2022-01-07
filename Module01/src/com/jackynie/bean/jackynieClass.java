@@ -28,7 +28,6 @@ public class jackynieClass {
         try {
             FileInputStream ss = new FileInputStream("fsfsf");
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
         }
 
     }
